@@ -14,10 +14,9 @@ In the CUDA world, one can choose between consumer (RTX) or enterprise (Tesla) a
 
 ## Procuring the parts
 
-Early 2020 I bought a couple of Tesla V100s on eBay for $1000 (SXM2, 16Gb) each after seeing them on eBay and deciding what to do with them. They've made some excellent doorstops, I'm sure.
+Early 2020 I bought a couple of Tesla V100s for $1000 (SXM2, 16Gb) each after seeing them on eBay and deciding what to do with them. They've made some excellent doorstops, I'm sure.
 
-![](images/v100-sxm2-1.jpg)
-![](images/v100-sxm2-2.jpg)
+![](images/v100-sxm2.jpg)
 *Tesla V100 SXM2*
 
 
