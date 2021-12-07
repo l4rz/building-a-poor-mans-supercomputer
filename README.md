@@ -2,6 +2,9 @@
 
 ## TL;DR
 I've built a 4x V100 box for less than $5,500.
+
+<b>NOTE:</b> If you intend to use 32Gb Voltas with Dell PowerEdge C4130, check my ["Reverse engineering Dell iDRAC to get rid of GPU throttling"](https://github.com/l4rz/reverse-engineering-dell-idrac-to-get-rid-of-gpu-throttling) writeup.
+
 ## Intro
 
 I prefer to use my own gear for personal projects rather than cloud services.
@@ -110,7 +113,7 @@ The relevant Dell parts that may be required or not, just for the reference:
 * 4X SATA cable `7N2GJ` (This one is weird. It is designed for conifiguration when you replace one PSU with 4x 2.5" SATA drive bay)
 * Plastic GPU shroud: `M7NX3`
 * Front control panel cable: `6WTR5` (The front panel is optional; you can power up the server via IDRAC)
-* Dell 1600-Watts 80 Plus Platinum Hot-Pluggable Power Supply for PowerEdge C4130 `PYC9T` (`95HR5` is also fine, as well as more powerful ones from C4140)
+* Dell 1600-Watts 80 Plus Platinum Hot-Pluggable Power Supply for PowerEdge C4130 `95HR5` (the 2400W `J1CC3` is also fine)
 
 It should be noted that server runs fine with any number of SXM2 GPUs. You don't need to install all four.
 
@@ -146,7 +149,6 @@ ResNet50 training (Imagenet)
 * 3090: FP32: 430 img/s, TF32: 430 img/s, AMP: 520 img/s
 * V100: FP32: 355 img/s, AMP: 1130 img/s
 * A100: FP32: 490 img/s, TF32: 790 img/s, AMP: 2140 img/s
-
 
 ## Written by
 
